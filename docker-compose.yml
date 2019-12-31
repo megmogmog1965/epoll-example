@@ -1,0 +1,6 @@
+version: '2'
+services:
+  compiler:
+    build: .
+    ports:
+    - "12001:12001"
